@@ -9,7 +9,6 @@ header {
 	align-content: space-between;
 	justify-content: space-between;
 
-	}
 	nav {
 		display: flex;
 		flex-direction: row;
