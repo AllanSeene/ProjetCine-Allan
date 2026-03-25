@@ -1,0 +1,23 @@
+html {
+	font-family: "Roboto", sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: #032541;
+	color: white;
+	align-content: space-between;
+	justify-content: space-between;
+
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		p {
+			margin: 1em;
+		}
+		p:hover {
+			text-decoration: underline;
+		}
+	}
+}
