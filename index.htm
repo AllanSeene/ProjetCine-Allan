@@ -17,4 +17,30 @@
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="logo">
+					<a
+						href="index.html"
+						aria-label="Accueil"
+						onclick="
+							window.scrollTo({ top: 0, behavior: 'smooth' });
+							return false;
+						"
+					>
+						<i class="fa-solid fa-film"></i>
+					</a>
+				</div>
+				<button type="button" class="burger-menu" aria-label="Ouvrir le menu">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<ul class="nav-links">
+					<li><a href="#tendances">Tendances</a></li>
+					<li><a href="#films">Films</a></li>
+					<li><a href="#series">Séries</a></li>
+				</ul>
+			</nav>
+		</header>
+	</body>
 </html>
